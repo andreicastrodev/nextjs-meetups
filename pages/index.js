@@ -1,7 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { Flex, Heading, Text, Box } from '@chakra-ui/react'
+
+import { Box } from '@chakra-ui/react'
 import MeetupLists from '../components/meetups/meetup-lists'
 const DUMMY_MEETUPS = [{
   title: 'Test meetup',
